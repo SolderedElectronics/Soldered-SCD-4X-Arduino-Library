@@ -16,5 +16,5 @@
  * @brief                   Sensor specific native constructor.
  */
 SCD_4X::SCD_4X(scd4x_sensor_type_e sensorType)
-{    
+{
 }
