@@ -5,7 +5,7 @@
 | ![CO2 sensor SCD40 breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
 | [SCD-40 CO2, Temperature and Humidity Sensor ](https://www.solde.red/333191)                                                            |
-| [SCD-40 CO2, Temperature and Humidity Sensor ](https://www.solde.red/333220)                                                            |
+| [SCD-41 CO2, Temperature and Humidity Sensor ](https://www.solde.red/333220)                                                            |
 
 SCD4X compliant to [easyC ecosystem](https://www.soldered.com/en/easyC). 
 
