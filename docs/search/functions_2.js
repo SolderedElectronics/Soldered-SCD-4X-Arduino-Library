@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initializenative_0',['initializeNative',['../class_sensor.html#adb537c76173019fddf84b2d89e6c6559',1,'Sensor::initializeNative()'],['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC::initializeNative()']]]
+  ['enabledebugging_0',['enableDebugging',['../class_s_c_d4x.html#a856cb061f87cb8cc85bc9f31833b08b0',1,'SCD4x']]]
 ];

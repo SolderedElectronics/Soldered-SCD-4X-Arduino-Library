@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['initializenative_0',['initializeNative',['../class_sensor.html#adb537c76173019fddf84b2d89e6c6559',1,'Sensor::initializeNative()'],['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC::initializeNative()']]]
+  ['humidity_0',['humidity',['../class_s_c_d4x.html#a22104e439f662dca2050bab9c8778170',1,'SCD4x']]],
+  ['humidityhasbeenreported_1',['humidityHasBeenReported',['../class_s_c_d4x.html#a46edf123afd9a87f7275b939285e7446',1,'SCD4x']]]
 ];

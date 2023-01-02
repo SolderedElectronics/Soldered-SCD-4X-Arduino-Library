@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['native_0',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]]
+  ['periodicmeasurementsarerunning_0',['periodicMeasurementsAreRunning',['../class_s_c_d4x.html#af77a6bbf5df959c8e2b5ae73a5e3e948',1,'SCD4x']]]
 ];

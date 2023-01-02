@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>16x2 easyC LCD Library: Class Members - Variables</title>
+<title>Wrapper for the SCD4X library: Class Members - Variables</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,9 +28,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">16x2 easyC LCD Library<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">Wrapper for the SCD4X library<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">This is a library for the 16x2 easyC LCD Module</div>
+   <div id="projectbrief">Wrapper for the SCD4X library created by Soldered</div>
   </td>
  </tr>
  </tbody>
@@ -94,12 +94,20 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 
 <div class="contents">
 &#160;<ul>
-<li>address&#160;:&#160;<a class="el" href="class_easy_c.html#a6f4c6f2e8723b0c0495e126d49f5fcda">EasyC</a></li>
-<li>beginDone&#160;:&#160;<a class="el" href="class_easy_c.html#a2f55de657a84e73edda23dae91d30436">EasyC</a></li>
-<li>defaultAddress&#160;:&#160;<a class="el" href="class_easy_c.html#a9052ae674b3553bbb19283278299f395">EasyC</a></li>
-<li>err&#160;:&#160;<a class="el" href="class_easy_c.html#a8b880d5daf116adde0cc436f1e4c0853">EasyC</a></li>
-<li>native&#160;:&#160;<a class="el" href="class_easy_c.html#abb766b60f26778dbc64e8792fd754729">EasyC</a></li>
-<li>pin&#160;:&#160;<a class="el" href="class_sensor.html#a0efecf34431610766469857f25e113da">Sensor</a></li>
+<li>_debugPort&#160;:&#160;<a class="el" href="class_s_c_d4x.html#a37398a4ab6f20280c4602a8dc5dc2f64">SCD4x</a></li>
+<li>_i2cPort&#160;:&#160;<a class="el" href="class_s_c_d4x.html#acf25185cc6067fa3898bfe98c5ded691">SCD4x</a></li>
+<li>_printDebug&#160;:&#160;<a class="el" href="class_s_c_d4x.html#aa8d37786953f769ab298ae276683eac5">SCD4x</a></li>
+<li>_sensorType&#160;:&#160;<a class="el" href="class_s_c_d4x.html#a78336ebb61b852f620ec37b7619badae">SCD4x</a></li>
+<li>bytes&#160;:&#160;<a class="el" href="unionscd4x__unsigned16_bytes__t.html#a3adedb40b1231ec028d6c4057c838607">scd4x_unsigned16Bytes_t</a></li>
+<li>co2&#160;:&#160;<a class="el" href="class_s_c_d4x.html#ac2c12030f85310de71449b5c988af9ec">SCD4x</a></li>
+<li>co2HasBeenReported&#160;:&#160;<a class="el" href="class_s_c_d4x.html#ab514659d0b2d3c17c30f9dafbb477e20">SCD4x</a></li>
+<li>humidity&#160;:&#160;<a class="el" href="class_s_c_d4x.html#a22104e439f662dca2050bab9c8778170">SCD4x</a></li>
+<li>humidityHasBeenReported&#160;:&#160;<a class="el" href="class_s_c_d4x.html#a46edf123afd9a87f7275b939285e7446">SCD4x</a></li>
+<li>periodicMeasurementsAreRunning&#160;:&#160;<a class="el" href="class_s_c_d4x.html#af77a6bbf5df959c8e2b5ae73a5e3e948">SCD4x</a></li>
+<li>signed16&#160;:&#160;<a class="el" href="unionscd4x__signed_unsigned16__t.html#a68e5ea5b91036d5c8518cd4c6287bdaf">scd4x_signedUnsigned16_t</a></li>
+<li>temperature&#160;:&#160;<a class="el" href="class_s_c_d4x.html#a65f4b29f3cc668ddbbf669d3d33e491e">SCD4x</a></li>
+<li>temperatureHasBeenReported&#160;:&#160;<a class="el" href="class_s_c_d4x.html#a7f54054bdea97f1f133f076639ea0528">SCD4x</a></li>
+<li>unsigned16&#160;:&#160;<a class="el" href="unionscd4x__signed_unsigned16__t.html#aa6c5e15bdd6f3785be177bd1863a4f91">scd4x_signedUnsigned16_t</a>, <a class="el" href="unionscd4x__unsigned16_bytes__t.html#a3f8f4f6debeb4c37abe5bfe64529caa2">scd4x_unsigned16Bytes_t</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -108,7 +116,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
     <!-- id is needed for treeview function! -->
     <ul>
         <li class="footer">
-            Generated on Mon Jan 2 2023 08:41:20 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Mon Jan 2 2023 10:36:44 for Wrapper for the SCD4X library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.6.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
