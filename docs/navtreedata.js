@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Wrapper for the SCD4X library", "index.html", [
+  [ "Library for the SCD4X library", "index.html", [
     [ "SCD4X Arduino library", "index.html", "index" ],
     [ "SparkFun License Information", "md_src_libs__spark_fun__s_c_d4x__arduino__library__l_i_c_e_n_s_e.html", [
       [ "Hardware", "md_src_libs__spark_fun__s_c_d4x__arduino__library__l_i_c_e_n_s_e.html#autotoc_md9", null ],
