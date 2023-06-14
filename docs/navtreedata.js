@@ -26,9 +26,9 @@ var NAVTREE =
 [
   [ "Library for the SCD4X library", "index.html", [
     [ "SCD4X Arduino library", "index.html", "index" ],
-    [ "SparkFun License Information", "md_src_libs__spark_fun__s_c_d4x__arduino__library__l_i_c_e_n_s_e.html", [
-      [ "Hardware", "md_src_libs__spark_fun__s_c_d4x__arduino__library__l_i_c_e_n_s_e.html#autotoc_md9", null ],
-      [ "Code", "md_src_libs__spark_fun__s_c_d4x__arduino__library__l_i_c_e_n_s_e.html#autotoc_md10", null ]
+    [ "SparkFun License Information", "md_src_2libs_2_spark_fun___s_c_d4x___arduino___library_2_l_i_c_e_n_s_e.html", [
+      [ "Hardware", "md_src_2libs_2_spark_fun___s_c_d4x___arduino___library_2_l_i_c_e_n_s_e.html#autotoc_md9", null ],
+      [ "Code", "md_src_2libs_2_spark_fun___s_c_d4x___arduino___library_2_l_i_c_e_n_s_e.html#autotoc_md10", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

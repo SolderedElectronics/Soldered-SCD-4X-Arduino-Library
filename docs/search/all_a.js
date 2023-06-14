@@ -17,7 +17,7 @@ var searchData=
   ['setsensoraltitude_14',['setSensorAltitude',['../class_s_c_d4x.html#a3cb8746be1a755114332f1a4af701316',1,'SCD4x']]],
   ['settemperatureoffset_15',['setTemperatureOffset',['../class_s_c_d4x.html#abe41bd2baec821984e845c76e18fdf79',1,'SCD4x']]],
   ['signed16_16',['signed16',['../unionscd4x__signed_unsigned16__t.html#a68e5ea5b91036d5c8518cd4c6287bdaf',1,'scd4x_signedUnsigned16_t']]],
-  ['sparkfun_20license_20information_17',['SparkFun License Information',['../md_src_libs__spark_fun__s_c_d4x__arduino__library__l_i_c_e_n_s_e.html',1,'']]],
+  ['sparkfun_20license_20information_17',['SparkFun License Information',['../md_src_2libs_2_spark_fun___s_c_d4x___arduino___library_2_l_i_c_e_n_s_e.html',1,'']]],
   ['sparkfun_5fscd4x_5farduino_5flibrary_2ecpp_18',['SparkFun_SCD4x_Arduino_Library.cpp',['../_spark_fun___s_c_d4x___arduino___library_8cpp.html',1,'']]],
   ['sparkfun_5fscd4x_5farduino_5flibrary_2eh_19',['SparkFun_SCD4x_Arduino_Library.h',['../_spark_fun___s_c_d4x___arduino___library_8h.html',1,'']]],
   ['startlowpowerperiodicmeasurement_20',['startLowPowerPeriodicMeasurement',['../class_s_c_d4x.html#a030e16c9250ad1657a8e0caa82dcc7dc',1,'SCD4x']]],
