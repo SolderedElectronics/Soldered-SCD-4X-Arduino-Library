@@ -8,8 +8,8 @@
  *                Attach Dasduino to computer using a USB cable.
  *                Connect SCD40/41 to Dasduino using easyC cable.
  *                Open Serial Monitor at 115200 baud.
- * 
- * @author        Paul Clark
+ *
+ * @authors       Paul Clark
  *                Based on earlier code by: Nathan Seidle
  *                Modified by Soldered
  *
@@ -19,14 +19,18 @@
  * basically do whatever you want with this code.
  */
 
-#include <Wire.h>
+// Include Wire library for I2C communication
+#include "Wire.h"
 
+// Include Soldered library for SCD40/SCD41 sensor
 #include "SCD-4X-SOLDERED.h" // Click here to get the library: https://github.com/SolderedElectronics/Soldered-SCD-4X-Arduino-Library
 
+// Create object for SCD sensor
 SCD_4X mySensor(SCD4x_SENSOR_SCD41); // Tell the library we have a SCD41 connected
 
 void setup()
 {
+    // Init serial and I2C communication
     Serial.begin(115200);
     Serial.println(F("SCD41 Example"));
     Wire.begin();
@@ -57,10 +61,12 @@ void loop()
 {
     while (mySensor.readMeasurement() == false) // readMeasurement will return true when fresh data is available
     {
+        // Print a dot every 0.5 seconds on Serial Monitor while waiting
         Serial.print(F("."));
         delay(500);
     }
 
+    // Print all data to the Serial Monitor
     Serial.println();
 
     Serial.print(F("CO2(ppm):"));
@@ -82,6 +88,7 @@ void loop()
         delay(5);
     }
 
+    // Print data to the Serial Monitor
     Serial.println();
 
     Serial.print(F("Temperature(C):"));

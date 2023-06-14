@@ -5,7 +5,7 @@
  * @brief       Header file for Soldered SCD-4X Arduino library.
  *
  *
- * @copyright   GNU General Public License v3.0
+ * @copyright   MIT License
  * @authors     Karlo Leksic for soldered.com
  ***************************************************/
 
